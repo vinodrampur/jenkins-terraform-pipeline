@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     tools {
-        terraform 'terraform'
+        terraform 'terraform-cide'
     }
     stages {
         stage ("checkout from GIT") {
