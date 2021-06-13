@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-balaraju-dev"
+  bucket = "my-tf-balaraju-golla-dev"
   acl    = "private"
 
   tags = {
