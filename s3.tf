@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-balaraju-golla-dev"
+resource "aws_s3_bucket" "vins2344" {
+  bucket = "vins-jacg"
   acl    = "private"
 
   tags = {
